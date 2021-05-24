@@ -58,5 +58,9 @@ public class Empleado {
 	public void subirsalario(double subida) {
 		salario = salario + subida;
 	}
+	//Añadido desde GitHub
+	public void bajarsalario(double bajada){
+		salario = salario - bajada;	
+	}
 
 }
